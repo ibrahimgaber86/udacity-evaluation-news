@@ -1,0 +1,25 @@
+$clr-primary: #1e90ff;
+$clr-secondary: #1e8fffc0;
+$clr-primary-background: #fffffff6;
+$clr-secondary-background: #f7fbff;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: $clr-primary-background;
+  .container {
+    width: 50%;
+    min-width: 500px;
+    max-width: 1200px;
+    padding: 1rem;
+    border: 1px solid $clr-primary;
+    border-radius: 5px;
+    background-color: #f7fbff;
+    h3 {
+      text-align: center;
+    }
+  }
+}

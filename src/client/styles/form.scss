@@ -1,0 +1,31 @@
+$clr-primary: #1e90ff;
+$clr-secondary: #1e8fffc0;
+
+form {
+  min-width: 500px;
+}
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .btn-submit {
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    color: #fff;
+    background-color: $clr-primary;
+    border: none;
+    outline: none;
+    &:hover {
+      background-color: $clr-secondary;
+      cursor: pointer;
+    }
+  }
+  input {
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 1px solid $clr-primary;
+    border-radius: 5px;
+    flex-grow: 1;
+  }
+}
